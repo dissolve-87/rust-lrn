@@ -1,5 +1,4 @@
 #[allow(dead_code)]
-
 fn silce_process(val : &mut[i32]) {
     val[0] = 22;
     val[1] = 333;
@@ -12,7 +11,7 @@ pub fn silces_lrn(){
 
     println!("{:?}",&items[1..4]); // normal silce
 
-    // silce_process(&mut items[1..4]); //silce
+    silce_process(&mut items[1..4]); //silce
 
     // silce_process(&mut items);
     // passing mutable reference 
