@@ -7,7 +7,8 @@
 // mod r_24_pattern_match;
 // mod r_25_generic;
 // mod r_28_closure;
-mod r_29_higher_ord_fun;
+// mod r_29_higher_ord_fun;
+mod r_30_traits;
 fn main() {
     // work::make_done();
     // r_19_arrays::array_lrn();
@@ -18,6 +19,7 @@ fn main() {
     // r_24_pattern_match::pattern_lrn();
     // r_25_generic::generic_lrn();
     // r_28_closure::closure_lrn();
-    r_29_higher_ord_fun::hi_ord();
+    // r_29_higher_ord_fun::hi_ord();
+    r_30_traits::tarits_lrn();
 
 }
